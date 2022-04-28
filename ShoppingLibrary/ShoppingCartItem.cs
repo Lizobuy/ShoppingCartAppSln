@@ -5,8 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ShoppingLibrary
-{
-    internal class ShoppingCartItem
+
+   {
+    
+    public class ShoppingCartItem
     {
+        public class Product
+        {
+            public string ProductName { get; set; }
+            public double ProductPrice { get; set; }
+        }
+
     }
 }

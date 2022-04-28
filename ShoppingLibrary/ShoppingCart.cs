@@ -1,15 +1,21 @@
 ﻿using System;
 
 namespace ShoppingLibrary
-{
+    {
+
+    public class Xbox : ShoppingCartItem
+    {
+
+    }
+    public class PS4 : ShoppingCartItem
+    {
+
+    }
+
     public class ShoppingCart
     {
-        List <Xbox> Xbox = new List <Xbox> ()
-
-        List <PS4> Xbox = new List <PS4> ()
-
-        {
-
-        }
+               
+        
+        
     }
 }
