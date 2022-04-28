@@ -10,10 +10,15 @@ namespace ShoppingLibrary
     
     public class ShoppingCartItem
     {
-        public class Product
+      
+            public string ProductName { get; private set; }
+            public double ProductPrice { get; private set; }
+      
+
+        public ShoppingCartItem(string productName, double productPrice)
         {
-            public string ProductName { get; set; }
-            public double ProductPrice { get; set; }
+            ProductName = productName;
+            ProductPrice = productPrice;
         }
 
     }
