@@ -28,9 +28,7 @@ namespace ShoppingCartApp
 
             Console.WriteLine(cart.GetSubTotal());
             Console.WriteLine(cart.GetSubTotalWithVat());
-            Console.WriteLine("");
-            Console.WriteLine("");
-            Console.WriteLine("With VAT:");
+           
         }
     }
 }
