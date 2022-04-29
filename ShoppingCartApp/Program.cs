@@ -12,10 +12,9 @@ namespace ShoppingCartApp
 
             ShoppingCartItem item = new ShoppingCartItem("xbox", 3999);
             cart.AddShoppingCartItem(item);
-            item = new ShoppingCartItem("ps4", 5000);
+            item = new ShoppingCartItem("ps4", 6000);
             cart.AddShoppingCartItem(item);
-            item = new ShoppingCartItem("nintendo", 6000);
-            cart.AddShoppingCartItem(item);
+          
 
 
             List<ShoppingCartItem> items = cart.GetShoppingCartItems();
@@ -23,11 +22,11 @@ namespace ShoppingCartApp
             foreach (ShoppingCartItem shoppingItem in items)
             {
 
-                Console.WriteLine(shoppingItem.ProductName +"\t" + shoppingItem.ProductPrice);
+                Console.WriteLine(shoppingItem.ProductName +"\t\t" + shoppingItem.ProductPrice);
             }
 
-            Console.WriteLine("Sub Total: " + cart.GetSubTotal());
-            Console.WriteLine("With Vat:  "  +  cart.GetSubTotalWithVat());
+            Console.WriteLine("Sub Total:      " + cart.GetSubTotal());
+            Console.WriteLine("With Vat:       "  +  cart.GetSubTotalWithVat());
            
         }
     }
