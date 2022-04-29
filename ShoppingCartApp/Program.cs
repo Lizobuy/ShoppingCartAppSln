@@ -23,11 +23,11 @@ namespace ShoppingCartApp
             foreach (ShoppingCartItem shoppingItem in items)
             {
 
-                Console.WriteLine(shoppingItem.ProductName + "\t\t" + shoppingItem.ProductPrice);
+                Console.WriteLine(shoppingItem.ProductName +"\t" + shoppingItem.ProductPrice);
             }
 
-            Console.WriteLine(cart.GetSubTotal());
-            Console.WriteLine(cart.GetSubTotalWithVat());
+            Console.WriteLine("Sub Total: " + cart.GetSubTotal());
+            Console.WriteLine("With Vat:  "  +  cart.GetSubTotalWithVat());
            
         }
     }
